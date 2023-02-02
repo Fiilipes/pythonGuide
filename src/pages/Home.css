@@ -1,0 +1,16 @@
+.homeHeading {
+    margin-top: 35px;
+}
+
+.homeHeading h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: var(--mainclr);
+}
+.homeHeading h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #aaa
+}

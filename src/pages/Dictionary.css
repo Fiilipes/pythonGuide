@@ -1,0 +1,62 @@
+#dictMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dictContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--subbg);
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 15px;
+        box-shadow: 5px 5px 10px #111;
+    width: 86%;
+}
+.dictPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #2d2e38;
+    padding: 15px;
+    border-radius: 15px;
+
+
+}
+.dictPart div {
+    width: 200px;
+    text-align: center;
+    background: #1f2026;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d2e38;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+    width: 250px;
+    border: none;
+    color: var(--mainclr);
+    margin: 0 auto 40px auto;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+    transition: .4s;
+    font-weight: 600;
+
+}
+#searchBar:focus, #searchBar:hover, #searchBar:active {
+    transition: .1s;
+    background: #424454;
+}

@@ -27,6 +27,21 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--mainbg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--subbg);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 nav {
     width: 96%;
