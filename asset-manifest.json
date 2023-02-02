@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pythonGuide/static/css/main.c782978e.css",
+    "main.js": "/pythonGuide/static/js/main.9e70e92a.js",
+    "static/js/787.cd7d7d7f.chunk.js": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js",
+    "index.html": "/pythonGuide/index.html",
+    "main.c782978e.css.map": "/pythonGuide/static/css/main.c782978e.css.map",
+    "main.9e70e92a.js.map": "/pythonGuide/static/js/main.9e70e92a.js.map",
+    "787.cd7d7d7f.chunk.js.map": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c782978e.css",
+    "static/js/main.9e70e92a.js"
+  ]
+}
