@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/pythonGuide/static/css/main.de9f5970.css",
-    "main.js": "/pythonGuide/static/js/main.ea0c1227.js",
+    "main.css": "/pythonGuide/static/css/main.7aa87deb.css",
+    "main.js": "/pythonGuide/static/js/main.432b5170.js",
     "static/js/787.cd7d7d7f.chunk.js": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js",
+    "static/media/graduate.png": "/pythonGuide/static/media/graduate.b65ab2577057d69f72ca.png",
+    "static/media/book.png": "/pythonGuide/static/media/book.2b2febabdd5a542b0be7.png",
     "index.html": "/pythonGuide/index.html",
-    "main.de9f5970.css.map": "/pythonGuide/static/css/main.de9f5970.css.map",
-    "main.ea0c1227.js.map": "/pythonGuide/static/js/main.ea0c1227.js.map",
+    "main.7aa87deb.css.map": "/pythonGuide/static/css/main.7aa87deb.css.map",
+    "main.432b5170.js.map": "/pythonGuide/static/js/main.432b5170.js.map",
     "787.cd7d7d7f.chunk.js.map": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de9f5970.css",
-    "static/js/main.ea0c1227.js"
+    "static/css/main.7aa87deb.css",
+    "static/js/main.432b5170.js"
   ]
 }
