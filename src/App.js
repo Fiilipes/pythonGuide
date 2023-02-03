@@ -14,15 +14,15 @@ function App() {
             <div>
                 <img className={"logo"} src={logo} alt={"icon"} />
             </div>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/guide"}>Příručka</Link>
-            <Link to={"/dictionary"}>Slovník</Link>
+            <Link to={"/pythonGuide"}>Home</Link>
+            <Link to={"/pythonGuide/guide"}>Příručka</Link>
+            <Link to={"/pythonGuide/dictionary"}>Slovník</Link>
         </nav>
 
       <Routes>
-        <Route path="/guide" element={<Guide />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/dictionary" element={<Dictionary />} />
+        <Route path="/pythonGuide/guide" element={<Guide />} />
+        <Route path="/pythonGuide" element={<Home />} />
+        <Route path="/pythonGuide/dictionary" element={<Dictionary />} />
       </Routes>
 
     </Router>

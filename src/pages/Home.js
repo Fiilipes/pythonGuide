@@ -27,13 +27,13 @@ const Home = () => {
             <div className={"homeContent"}>
                 <div id="cards" onMouseMove={onmousechange}>
                     <Card
-                        link={"/guide"}
+                        link={"/pythonGuide/guide"}
                         heading={"Příručka"}
                         description={"Příručka obsahuje 6 programů, které vám pomohou naučit se python"}
                         img={image1}
                     />
                     <Card
-                        link={"/dictionary"}
+                        link={"/pythonGuide/dictionary"}
                         heading={"Slovník"}
                         description={"Slovník obsahuje všechny komponenty pythonu a jejich vysvětlení"}
                         img={image2}
