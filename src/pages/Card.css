@@ -70,7 +70,7 @@
     z-index: 4;
     position: absolute;
     text-align: left;
-    padding-left: 15px;
+    padding: 15px 15px 2px 15px;
     margin-bottom: 10px;
     bottom: 0;
 }
@@ -79,11 +79,11 @@
 }
 .cardText p {
     color: #999;
-    font-size: 12px;
+    font-size: 10px;
 }
 .cardText h3 {
     color: #bbb;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
 }
 path {

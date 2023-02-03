@@ -14,8 +14,8 @@ const DictionaryPart = ({command, description, codeDict}) => {
     const bright = "sandybrown"
 
     let constVariables = ["randomNumber"]
-    let localFunctions = ["print", "input"]
-    let importedFunctions = ["randint"]
+    let localFunctions = ["print", "input", "list", "type", "abs", "round", "min", "max", "sum", "len", "pow", "title", "lower", "upper", "capitalize", "split", "replace", "startswith", "endswith", "find"]
+    let importedFunctions = ["randint", "append", "remove", "pop", "insert", "index", "clear", "count", "sort", "reverse", "copy" ]
 
 
     const reformat = async (code) => {
@@ -24,6 +24,11 @@ const DictionaryPart = ({command, description, codeDict}) => {
 
         code = code.replace(/\(/g, color("(", yellow))
         code = code.replace(/\)/g, color(")", yellow))
+        code = code.replace(/\[/g, color("[", yellow))
+        code = code.replace(/]/g, color("]", yellow))
+        code = code.replace(/\{/g, color("{", yellow))
+        code = code.replace(/}/g, color("}", yellow))
+
 
         code = code.replace(/\n/g, "<br>")
         code = code.replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;")
@@ -39,16 +44,23 @@ const DictionaryPart = ({command, description, codeDict}) => {
         code = code.replace(/ <= /g, color(" <= ", violet))
         code = code.replace(/ > /g, color(" > ", violet))
         code = code.replace(/ < /g, color(" < ", violet))
+        code = code.replace(/ == /g, color(" == ", violet))
+        code = code.replace(/ != /g, color(" != ", violet))
+
 
         // logic operators
         code = code.replace(/ and /g, color(" and ", violet))
         code = code.replace(/ or /g, color(" or ", violet))
         code = code.replace(/ not /g, color(" not ", violet))
 
+        code = code.replace(/True/g, color("True", purple))
+        code = code.replace(/False/g, color("False", purple))
+
         // statements
-        code = code.replace(/if/g, color("if", violet))
         code = code.replace(/elif/g, color("elif", violet))
+
         code = code.replace(/else/g, color("else", violet))
+        code = code.replace(/if/g, color("if", violet))
         code = code.replace(/while/g, color("while", violet))
         code = code.replace(/for/g, color("for", violet))
         code = code.replace(/ in /g, color(" in ", violet))
@@ -64,7 +76,10 @@ const DictionaryPart = ({command, description, codeDict}) => {
         code = code.replace(/"Jste moc mladý\/á."/g, color("\"Jste dospělý/á.\"", bright))
         code = code.replace(/"Můžete vstoupit do zábavního parku."/g, color("\"Můžete vstoupit do zábavního parku.\"", bright))
         code = code.replace(/"Nemůžete vstoupit do zábavního parku."/g, color("\"Nemůžete vstoupit do zábavního parku.\"", bright))
+        code = code.replace(/"20"/g, color("\"20\"", bright))
         // numbers
+
+
         code = code.replace(/1/g, color("1", purple))
         code = code.replace(/2/g, color("2", purple))
         code = code.replace(/3/g, color("3", purple))
@@ -75,12 +90,17 @@ const DictionaryPart = ({command, description, codeDict}) => {
         code = code.replace(/8/g, color("8", purple))
         code = code.replace(/9/g, color("9", purple))
         code = code.replace(/0/g, color("0", purple))
+        code = code.replace(/<span style="color:mediumpurple">2<\/span><span style="color:mediumpurple">0<\/span>/g, color("20", bright))
 
         // variables
         code = code.replace(/print/g, color("print", purple))
         code = code.replace(/input/g, color("input", purple))
         code = code.replace(/str/g, color("str", purple))
         code = code.replace(/int/g, color("int", purple))
+        code = code.replace(/float/g, color("float", purple))
+        code = code.replace(/bool/g, color("bool", purple))
+        code = code.replace(/len/g, color("len", purple))
+
         // functions
         importedFunctions.forEach(oneFunc => {
             code = code.replace(oneFunc, color(oneFunc, green))

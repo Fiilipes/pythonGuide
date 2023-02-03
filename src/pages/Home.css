@@ -1,9 +1,9 @@
 .homeHeading {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .homeHeading h1 {
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     font-weight: 900;
     color: var(--mainclr);

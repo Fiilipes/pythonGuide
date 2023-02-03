@@ -86,7 +86,7 @@ const Bubble = ({content, code, number, vars, varsValues, varsTypes, varsProps})
         code = code.replace(/print/g, color("print", purple))
         code = code.replace(/input/g, color("input", purple))
         code = code.replace(/str/g, color("str", purple))
-        code = code.replace(/int/g, color("int", purple))
+        code = code.replace(/ int/g, color(" int", purple))
         // functions
         importedFunctions.forEach(oneFunc => {
             code = code.replace(oneFunc, color(oneFunc, green))

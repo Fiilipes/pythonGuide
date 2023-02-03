@@ -1,6 +1,7 @@
 import React from "react";
 import Bubble from "./Bubble";
 import "./Guide.css"
+import Footer from "./Footer";
 
 const Guide = () => {
     return (
@@ -88,10 +89,13 @@ const Guide = () => {
                     /* Popis  */  "V tomto programu si ukážeme, ako fungují cykly. Do proměnné min zadáte minimální číslo, do proměnné max zadáte maximální číslo a program vám vypíše součet všech čísel v zadaném rozsahu."
                 ]}
                     code={
-                    "min = input()\nmax = input()\n\nsum = 0\n\nfor i in range(int(min), int(max) + 1):\n\tsum += i\n\nprint(sum)"
+                    "min = input()\nmax = input()\n\nsum = 0\n\nfor i in range( int(min), int(max) + 1):\n\tsum += i\n\nprint(sum)"
                 }
                 />
             </div>
+            <Footer>
+
+            </Footer>
         </div>
     );
 }

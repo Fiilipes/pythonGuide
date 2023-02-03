@@ -3,6 +3,7 @@ import "./Home.css"
 import Card from "./Card";
 import image1 from "../graduate.png"
 import image2 from "../book.png"
+import Footer from "./Footer";
 
 const Home = () => {
     const onmousechange = function (e){
@@ -40,6 +41,7 @@ const Home = () => {
 
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 }
