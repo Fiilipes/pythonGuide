@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.410968d2.css",
-    "main.js": "/static/js/main.f38f2496.js",
-    "static/js/787.cd7d7d7f.chunk.js": "/static/js/787.cd7d7d7f.chunk.js",
-    "static/media/graduate.png": "/static/media/graduate.b65ab2577057d69f72ca.png",
-    "static/media/book.png": "/static/media/book.2b2febabdd5a542b0be7.png",
-    "index.html": "/index.html",
-    "main.410968d2.css.map": "/static/css/main.410968d2.css.map",
-    "main.f38f2496.js.map": "/static/js/main.f38f2496.js.map",
-    "787.cd7d7d7f.chunk.js.map": "/static/js/787.cd7d7d7f.chunk.js.map"
+    "main.css": "/pythonGuide/static/css/main.410968d2.css",
+    "main.js": "/pythonGuide/static/js/main.755618f9.js",
+    "static/js/787.cd7d7d7f.chunk.js": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js",
+    "static/media/graduate.png": "/pythonGuide/static/media/graduate.b65ab2577057d69f72ca.png",
+    "static/media/book.png": "/pythonGuide/static/media/book.2b2febabdd5a542b0be7.png",
+    "index.html": "/pythonGuide/index.html",
+    "main.410968d2.css.map": "/pythonGuide/static/css/main.410968d2.css.map",
+    "main.755618f9.js.map": "/pythonGuide/static/js/main.755618f9.js.map",
+    "787.cd7d7d7f.chunk.js.map": "/pythonGuide/static/js/787.cd7d7d7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.410968d2.css",
-    "static/js/main.f38f2496.js"
+    "static/js/main.755618f9.js"
   ]
 }
