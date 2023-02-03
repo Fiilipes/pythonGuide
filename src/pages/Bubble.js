@@ -67,7 +67,7 @@ const Bubble = ({content, code, number, vars, varsValues, varsTypes, varsProps})
 
         // custom
         code = code.replace(/"Jste dospělý\/á."/g, color("\"Jste dospělý/á.\"", bright))
-        code = code.replace(/"Jste moc mladý\/á."/g, color("\"Jste dospělý/á.\"", bright))
+        code = code.replace(/"Jste moc mladý\/á."/g, color("\"Jste moc mladý/á.\"", bright))
         code = code.replace(/"Můžete vstoupit do zábavního parku."/g, color("\"Můžete vstoupit do zábavního parku.\"", bright))
         code = code.replace(/"Nemůžete vstoupit do zábavního parku."/g, color("\"Nemůžete vstoupit do zábavního parku.\"", bright))
         // numbers
